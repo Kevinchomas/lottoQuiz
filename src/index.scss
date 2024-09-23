@@ -1,0 +1,27 @@
+*{
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../src/assets/Fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Wolf Sans SC';
+  src: url('../src/assets/Fonts/WolfSans-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #05051E;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
